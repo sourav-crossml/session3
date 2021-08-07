@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+}
+div{
+    
+    background-color: #ebedeb;
+}
+form{
+    margin: 5px;
+    border: 2px black solid;
+}
+div form h2{
+    margin-left: 30px;
+    text-align: left;
+}
+.inner{
+    margin-left: 60px;
+
+}
+.input,select{
+    /* margin-left: 100px; */
+    width: 220px;
+}
+.button {
+    width: 100px;
+    /* background-color: #4CAF50; Green */
+    /* border: none; */
+    /* color: white; */
+    /* padding: 15px 32px; */
+    /* text-align: center; */
+    text-decoration: none;
+    /* display: inline-block; */
+    margin-bottom: 10px;
+    margin-left: 40px;
+    /* font-size: 16px; */
+  }
+img{
+    height: 13px;
+    width: 18px;
+}
+
+div form .inner label{
+    width: 180px;
+    display: inline-table;
+} 
+#f1{
+    width: 200px;
+}
+.dob{
+    width: 70px;
+}
+.half-lenght{
+    width: 90px;
+}
+.radio{
+    width: 59px;
+}
+div form .inner .radio{
+    width: 15px;
+}
+div form .inner small{
+    margin-left: 184px;
+}
