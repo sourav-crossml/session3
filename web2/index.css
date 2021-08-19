@@ -1,0 +1,153 @@
+#nav1{
+    margin-top: 1rem;
+}
+#navbar .container{
+    background: white;
+    
+}
+.navbar .container .nav .nav-item a{
+    color: black;
+}
+.navbar .container .navbar-brand{
+    width: 100;
+}
+.container-2{
+    background-image: url("head.jpg");
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 550px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+
+}
+.container-2 .card .card-body a{
+    margin-left: 35%;
+}
+.container-2 .card .card-body{
+    POSITION: absolute;
+    margin-top: 10%;
+    margin-left: 25%;
+    width: 50%;
+    background: white;
+}
+.container-3 .card {
+    float: left;
+    padding: 1% 1%;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+.container-3 .card .row .col-md-4 img{
+    height: 100%;
+    width: 120%;
+}
+
+.container-4{
+   float: left;
+}
+.container-4 .d-4-left .card{
+    margin-top: 6%;
+}
+.container-4 .d-4-left{
+    width: 29%;
+    margin-left: 5%;
+    float: left;
+    /* margin-top: 2%; */
+}
+.container-4 .d-4-right{
+    width: 100%;
+
+}
+footer{
+    /* margin-top: 81%; */
+}
+footer .inner-s-6 ul li{
+    background: black;
+    color: white;
+}
+footer .inner-s-6{
+    background: black;
+    padding-top: 3%;
+    color: white;
+    padding-left: 3%;
+    width: 25%;
+    float: left;
+}
+footer .inner-s-6 img{
+    margin-top: 6%;
+    padding-bottom: 51%;
+}
+footer div p{
+    margin-top: 3%;
+}
+#contacr-us{
+    width: 100%;
+    float: left;
+    list-style: none;
+}
+#contacr-us .icon{
+    float: left;
+    padding: 2%;
+    min-width: 8%;
+    /* height: 15%; */
+    list-style: none;
+    background-color: white;
+    margin: 2%;
+}
+#in-5{
+    background: yellow;
+    margin-left: 23%;
+    width: 100%;
+    border: none;
+}
+#in-5-1{
+    background: yellow;
+    /* margin-left: 23%; */
+    width: 100%;
+    border: none;
+}
+
+/* hr line */
+.hr_line {
+    display: flex;
+    flex-direction: row;
+}
+.hr_line:before,
+.hr_line:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+.hr_line_f {
+    display: flex;
+    flex-direction: row;
+}
+
+.hr_line_f:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid whitesmoke;
+    margin: auto;
+}
+
+.hr_line_p {
+    display: flex;
+    flex-direction: row;
+}
+.hr_line_p:before,
+.hr_line_p:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid whitesmoke;
+    margin: auto;
+}
+/* .square{
+    height:10%;
+    width: 10%;
+    padding:10px;
+    margin: 5px;
+    background-color: whitesmoke;
+  }
+  .square,li{
+      font-size: 20px;
+  } */
